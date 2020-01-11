@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Diagonal with 2x2 Grid</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+
+ 
+        /*CLient Specific Styles */
+        body, table, td, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Make sure size of text is not changed by render engine */
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; } /* MSO no spacing added to tables */
+        img {-ms-interpolation-mode: bicubic; } /* Scale img nicely */
+
+        /* Reset Styles */
+        img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        table {border-collapse: collapse !important; } /* spacing between table cells that house our content is collapsed, no extra whitespace breaking columns */
+        body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; } /* Fill Screen */
+
+        /* iOS Blue Links */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: inherit !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* Gmail Blue Links */
+        u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .responsive-table {
+                width: 100%!important;
+				min-width: 100%!important;
+            }
+            .mobile-copy {
+                font-size: 18px !important;
+                line-height: 28px !important;
+            }
+        }
+
+		@media screen yahoo and (max-width: 600px)  {
+			.responsive-table {
+                width: 100%!important;
+				min-width: 100%!important;
+            }
+            .mobile-copy {
+                font-size: 18px !important;
+                line-height: 28px !important;
+            }
+		}
+
+
+        .caption { 
+            width: 100px !important;
+        }
+
+    </style>
+    </head>
+
+<body id="body" style="margin: 0 !important; padding: 0 !important;">
+<!--Yahoo Mail For Android Styles need to be in body to work-->
+<style type="text/css">@media screen yahoo and (max-width: 600px)  {
+			.responsive-table {
+                width: 100%!important;
+				min-width: 100%!important;
+            }
+            .mobile-copy {
+                font-size: 18px !important;
+                line-height: 28px !important;
+            }
+			}
+			@media screen and (max-width: 600px) {
+            .responsive-table {
+                width: 100%!important;
+				min-width: 100%!important;
+            }
+            .mobile-copy {
+                font-size: 18px !important;
+                line-height: 28px !important;
+            }
+        }
+</style>
+<table role="presentation" style="table-layout: fixed;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EAEAEA" align="center">
+	<tbody>
+		<tr>
+			<td>
+			<table class="responsive-table" role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="white" align="center">
+    
+				<tbody>
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" class="" align="center"><img alt="Logo Header" src="https://i.imgur.com/Wm62I4M.png" style="display: block; background-color: #3761a5; color:lightcyan; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" width="600" border="0"> <!--min-width so images don't get too small--></td>
+					</tr>
+					<!--Image Module-->
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" class="" align="center"><img alt="Ocean" src="https://i.imgur.com/SpaOHIE.png" style="display: block; background-color: #3761a5; color:lightcyan; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" width="600" border="0"></td>
+					</tr>
+					<!--Image Module-->
+					<tr>
+                        <td style="padding: 0px 0px 0px 0px; margin: 0 0 0 0;" class="" align="center"><img alt="Ocean" src="https://i.imgur.com/VG8CMVd.png" style="display: block; background-color: #073764; color:lightcyan; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" width="600" border="0"></td>
+					</tr>
+					<!--Copy Module-->
+					<tr>
+						<td style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; line-height: 24px; padding: 10px 13px 0px 13px;" class="" bgcolor="#073764" align="left">
+						<h1 style="color: #FFE0C5; padding: 10px 10px 0px 20px; line-height: 32px;">GET AWAY</h1>
+
+						<p style="margin: 0; padding: 10px 30px 10px 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt.</p>
+
+						<p style="margin: 0; padding: 10px 10px 0px 20px;"><strong>RESORT</strong></p>
+
+						<p style="margin: 0; padding: 0px 10px 0px 20px; font-size: 18px;">Date and Time</p>
+
+						<p style="margin: 0; padding: 0px 10px 0px 20px; font-size: 18px;">Location</p>
+						</td>
+					</tr>
+					<!--Image Module-->
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" class="" align="center"><img alt="diagonal-slice" src="https://i.imgur.com/xqCYv66.png" style="display: block; background-color: #3761a5; color:lightcyan; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" width="600" border="0"></td>
+					</tr>
+					<!-- 2COL Module -->
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" bgcolor="#FFE0C5"><!-- Wrapper for 2 Cards -->
+						<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+							<tbody>
+								<tr>
+									<td><!-- Card 1 -->
+									<table class="responsive-table" role="presentation" width="48%" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td>
+												<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"><!-- Image Module -->
+													<tbody>
+														<tr>
+															<td style="padding: 20px 10px 0px 20px" class="" align="center"><a href="#" target="_blank"><img alt="Mountains" src="https://i.imgur.com/zd7Q1JZ.jpg" style="display: block; color:#3761a5; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" border="0"> </a></td>
+														</tr>
+														<!-- Copy w/ Button Module -->
+														<tr>
+															<td style="padding: 0px 10px 0px 10px">
+															<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+																<tbody>
+																	<tr>
+																		<td class="caption" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;" height="220">
+																			<a href="#" style="text-decoration: none; color: #3075B6"><h1 class="mobile-copy" style="margin: 0; color: #3075B6; padding: 10px 10px 10px 10px; font-size: 22px">HEADLINE LOREM</h1></a>
+
+																			<p class="mobile-copy" style="margin: 0; color: #333333; padding: 0px 10px 10px 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	
+																			<a href="#" style="text-decoration: none; color: #3075B6"><p style="margin: 0; padding: 10px 10px 0px 10px; color: #3075B6;"><strong>EVENT NAME</strong></p></a>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Date and Time</p>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Location</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+														<!-- END Copy w/ Button Module -->
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--END Card 1 --><!-- Card 2 -->
+
+									<table class="responsive-table" role="presentation" width="48%" cellspacing="0" cellpadding="0" border="0" align="center">
+										<tbody>
+											<tr>
+												<td>
+												<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"><!-- Image Module -->
+													<tbody>
+														<tr>
+															<td style="padding: 20px 10px 0px 20px" class="" align="center"><a href="#" target="_blank"><img alt="Surf" src="https://i.imgur.com/2RevbI2.jpg" style="display: block; color:#3761a5; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" border="0"></a></td>
+														</tr>
+														<!-- Copy Module -->
+														<tr>
+															<td style="padding: 0px 10px 0px 10px">
+															<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+																<tbody>
+																	<tr>
+																		<td class="caption" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;" height="220">
+																			<a href="#" style="text-decoration: none; color: #3075B6"><h1 class="mobile-copy" style="margin: 0; color: #3075B6; padding: 10px 10px 10px 10px; font-size: 22px">HEADLINE LOREM</h1></a>
+
+																			<p class="mobile-copy" style="margin: 0; color: #333333; padding: 0px 10px 10px 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	
+																			<a href="#" style="text-decoration: none; color: #3075B6"><p style="margin: 0; padding: 10px 10px 0px 10px; color: #3075B6;"><strong>EVENT NAME</strong></p></a>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Date and Time</p>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Location</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- END Card 2 --></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END Wrapper for 2 Cards --></td>
+					</tr>
+					<!-- END 2COL Module --><!-- 2COL Module -->
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" bgcolor="#FFE0C5"><!-- Wrapper for 2 Cards -->
+						<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+							<tbody>
+								<tr>
+									<td><!-- Card 1 -->
+									<table class="responsive-table" role="presentation" width="48%" cellspacing="0" cellpadding="0" border="0" align="left">
+										<tbody>
+											<tr>
+												<td>
+												<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"><!-- Image Module -->
+													<tbody>
+														<tr>
+															<td style="padding: 20px 10px 0px 20px" class="" align="center"><a href="#" target="_blank"><img alt="Hike" src="https://i.imgur.com/KrGTvr0.jpg" style="display: block; color:#3761a5; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" border="0"></a></td>
+														</tr>
+														<!-- Copy w/ Button Module -->
+														<tr>
+															<td style="padding: 0px 10px 0px 10px">
+															<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+																<tbody>
+																	<tr>
+																		<td class="caption" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;" height="220">
+																			<a href="#" style="text-decoration: none; color: #3075B6"><h1 class="mobile-copy" style="margin: 0; color: #3075B6; padding: 10px 10px 10px 10px; font-size: 22px">HEADLINE LOREM</h1></a>
+
+																			<p class="mobile-copy" style="margin: 0; color: #333333; padding: 0px 10px 10px 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	
+																			<a href="#" style="text-decoration: none; color: #3075B6"><p style="margin: 0; padding: 10px 10px 0px 10px; color: #3075B6;"><strong>EVENT NAME</strong></p></a>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Date and Time</p>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Location</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+														<!-- END Copy w/ Button Module -->
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--END Card 1 --><!-- Card 2 -->
+
+									<table class="responsive-table" role="presentation" width="48%" cellspacing="0" cellpadding="0" border="0" align="center">
+										<tbody>
+											<tr>
+												<td>
+												<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"><!-- Image Module -->
+													<tbody>
+														<tr>
+															<td style="padding: 20px 10px 0px 20px" class="" align="center"><a href="#" target="_blank"><img alt="Beach" src="https://i.imgur.com/Kq2EpVX.jpg" style="display: block; color:#3761a5; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" border="0"></a></td>
+														</tr>
+														<!-- Copy w/ Button Module -->
+														<tr>
+															<td style="padding: 0px 10px 0px 10px">
+															<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+																<tbody>
+																	<tr>
+																		<td class="caption" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;" height="220">
+																	
+																			<a href="#" style="text-decoration: none; color: #3075B6"><h1 class="mobile-copy" style="margin: 0; color: #3075B6; padding: 10px 10px 10px 10px; font-size: 22px">HEADLINE LOREM</h1></a>
+
+																			<p class="mobile-copy" style="margin: 0; color: #333333; padding: 0px 10px 10px 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	
+																			<a href="#" style="text-decoration: none; color: #3075B6"><p style="margin: 0; padding: 10px 10px 0px 10px; color: #3075B6;"><strong>EVENT NAME</strong></p></a>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Date and Time</p>
+	
+																			<p style="margin: 0; padding: 0px 10px 0px 10px; color: #333333; font-size: 14px;">Location</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- END Card 2 --></td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END Wrapper for 2 Cards --></td>
+					</tr>
+					<!-- END 2COL Module --><!--Image Module-->
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" class="" align="center"><img alt="diagonal-slice" src="https://i.imgur.com/X7r6A6w.png" style="display: block; background-color: #3761a5; color:lightcyan; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" width="600" border="0"></td>
+					</tr>
+					<!--Copy Module-->
+					<tr>
+						<td style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; line-height: 24px; padding: 40px 13px 40px 13px;" class="" bgcolor="#073764" align="left">
+						<h1 style="color: #FFE0C5; padding: 0px 30px 0px 20px; line-height: 32px;">HEADLINE LOREM IPSUM</h1>
+
+						<p style="margin: 0; padding: 10px 30px 10px 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt.</p>
+
+						<p style="margin: 0; padding: 0px 10px 0px 20px; font-size: 18px;">Date and Time</p>
+
+						<p style="margin: 0; padding: 0px 10px 0px 20px; font-size: 18px;">Location</p>
+						</td>
+					</tr>
+					<!--Image Module-->
+					<tr>
+						<td style="padding: 0px 0px 0px 0px" class="" align="center"><img alt="Ocean" src="https://i.imgur.com/KX1Jzpr.png" style="display: block; background-color: #3761a5; color:lightcyan; font-family: sans-serif; font-size: 32px; font-weight: bold; width: 100%; max-width: 100%; min-width: 200px;" width="600" border="0"></td>
+					</tr>
+				
+					<!--Social Media Links-->
+		<!--Social Media Links-->
+		<tr>
+			<td align="center">
+				<table align="center" cellspacing="0" cellpadding="0" role="presentation">
+					<tr>
+						<td bgcolor="#073764" align="center" valign="top" border="0" style="padding: 10px 0px 0px 0px; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+							<h2>FOLLOW US</h2>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#073764" width="600" align="center" style="padding: 0px 0px 20px 0px; max-width: 100%; min-width: 200px;" border="0">
+							<a href="https://www.facebook.com/" target="_blank"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="44" height="44" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M6.02987 3.90308H18.0999C19.6399 3.90308 20.8899 5.15308 20.8899 6.69308V18.7631C20.8899 20.3031 19.6399 21.5531 18.0999 21.5531H6.02987C4.48987 21.5531 3.23987 20.3031 3.23987 18.7631V6.69308C3.23987 5.15308 4.48987 3.90308 6.02987 3.90308ZM18.0999 20.3531C18.9799 20.3531 19.6899 19.6431 19.6899 18.7631V6.69308C19.6899 5.81308 18.9799 5.10308 18.0999 5.10308H6.02987C5.14987 5.10308 4.43987 5.81308 4.43987 6.69308V18.7631C4.43987 19.6431 5.14987 20.3531 6.02987 20.3531H18.0999ZM11.9799 7.72315C12.7299 7.15315 13.8099 7.00315 14.9199 7.32315C15.4499 7.47315 15.7599 8.02315 15.6099 8.55315C15.4499 9.08315 14.8999 9.39315 14.3699 9.24315C13.8899 9.10315 13.4199 9.13315 13.1799 9.31315C13.1759 9.31707 13.1712 9.32148 13.1659 9.3265C13.1027 9.38549 12.9499 9.52842 12.9499 9.94315V11.2231H13.9599C14.5099 11.2231 14.9599 11.6731 14.9599 12.2231C14.9599 12.7731 14.5099 13.2231 13.9599 13.2231H12.9499V17.2931C12.9499 17.8431 12.4999 18.2931 11.9499 18.2931C11.3999 18.2931 10.9499 17.8431 10.9499 17.2931V13.2231H10.1099C9.55986 13.2231 9.10986 12.7731 9.10986 12.2231C9.10986 11.6731 9.55986 11.2231 10.1099 11.2231H10.9499V9.94315C10.9499 9.01315 11.3199 8.22315 11.9799 7.72315Z" fill="#ffffff"></path></svg></a>
+							<a href="https://twitter.com/" target="_blank"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="44" height="44" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M6.52987 20.932H18.5999C20.1399 20.932 21.3899 19.672 21.3899 18.142V6.07198C21.3899 4.53198 20.1399 3.28198 18.5999 3.28198H6.52987C4.98987 3.28198 3.73987 4.53198 3.73987 6.07198V18.142C3.73987 19.682 4.98987 20.932 6.52987 20.932ZM4.93987 6.07198C4.93987 5.19198 5.64987 4.48198 6.52987 4.48198H18.5999C19.4799 4.48198 20.1899 5.19198 20.1899 6.07198V18.142C20.1899 19.022 19.4799 19.732 18.5999 19.732H6.52987C5.64987 19.732 4.93987 19.022 4.93987 18.142V6.07198ZM16.6199 9.15199C17.0499 9.10199 17.4799 8.98199 17.8699 8.81199C17.5799 9.25199 17.2099 9.63199 16.7699 9.95199C16.7799 10.042 16.7799 10.132 16.7799 10.232C16.7799 13.102 14.5999 16.422 10.5899 16.422C9.35988 16.422 8.20988 16.062 7.24988 15.442C7.41988 15.462 7.58988 15.472 7.76988 15.472C8.78988 15.472 9.72988 15.122 10.4699 14.542C9.51988 14.522 8.71988 13.882 8.43988 13.022C8.56988 13.052 8.70988 13.062 8.84988 13.062C9.04988 13.062 9.23988 13.042 9.41988 12.992C8.42988 12.792 7.67988 11.912 7.67988 10.852V10.832C7.96988 10.992 8.30988 11.092 8.65988 11.102C8.07988 10.712 7.68988 10.042 7.68988 9.29199C7.68988 8.89199 7.79988 8.52199 7.98988 8.19199C9.06988 9.51199 10.6699 10.382 12.4799 10.472C12.4399 10.312 12.4299 10.142 12.4299 9.97199C12.4299 8.77199 13.4099 7.79199 14.6099 7.79199C15.2299 7.79199 15.7999 8.05199 16.1999 8.48199C16.6899 8.38199 17.1599 8.20199 17.5799 7.95199C17.4199 8.46199 17.0699 8.88199 16.6199 9.15199Z" fill="#ffffff"></path></svg></a>
+							<a href="https://instagram.com/" target="_blank"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="44" height="44" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M18.0899 3.90308H6.02987C4.48987 3.90308 3.23987 5.15308 3.23987 6.69308V18.7631C3.23987 20.3031 4.48987 21.5531 6.02987 21.5531H18.0999C19.6399 21.5531 20.8899 20.3031 20.8899 18.7631V6.69308C20.8799 5.15308 19.6299 3.90308 18.0899 3.90308ZM19.6799 18.7631C19.6799 19.6431 18.9699 20.3531 18.0899 20.3531H6.02987C5.14987 20.3531 4.43987 19.6431 4.43987 18.7631V6.69308C4.43987 5.81308 5.14987 5.10308 6.02987 5.10308H18.0999C18.9799 5.10308 19.6899 5.81308 19.6899 6.69308V18.7631H19.6799ZM12.0598 8.823C9.90979 8.823 8.15979 10.573 8.15979 12.723C8.15979 14.873 9.90979 16.623 12.0598 16.623C14.2098 16.623 15.9598 14.873 15.9598 12.723C15.9598 10.573 14.2098 8.823 12.0598 8.823ZM12.0598 15.433C10.5698 15.433 9.35979 14.223 9.35979 12.733C9.35979 11.243 10.5698 10.033 12.0598 10.033C13.5498 10.033 14.7598 11.243 14.7598 12.733C14.7598 14.213 13.5498 15.433 12.0598 15.433ZM18.3998 8.43311C18.3998 8.98539 17.9521 9.43311 17.3998 9.43311C16.8475 9.43311 16.3998 8.98539 16.3998 8.43311C16.3998 7.88082 16.8475 7.43311 17.3998 7.43311C17.9521 7.43311 18.3998 7.88082 18.3998 8.43311Z" fill="#ffffff"></path></svg></a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+	
+					<!--Copy Module-->
+					<tr>
+						<td style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666; padding: 20px 20px 20px 20px;" class="" align="center">Travel Co. | One Ocean Ave | Miami, FL 33101 | 555-555-5500<br>
+						<a href="#" style="color: #666666; text-decoration: none;" target="_blank">Privacy Policy</a> | <a href="#" style="color: #666666; text-decoration: none;" target="_blank">Terms of Service</a><br>
+						<a href="#" style="color: #666666; text-decoration: none;" target="_blank">Unsubscribe from travel updates</a> | <a href="#" style="color: #666666; text-decoration: none;" target="_blank">Unsubscribe from all travel communications</a></td>
+					</tr>
+					<!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+</body>
+</html>
